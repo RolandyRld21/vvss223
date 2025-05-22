@@ -79,9 +79,14 @@ class InventoryServiceTest {
             fail();
         } catch (ValidationException e) {
             switch (inStock) {
-                case min - 1 -> assertEquals("Inventory level is lower than minimum value. ", e.getMessage());
-                case max + 1 -> assertEquals("Inventory level is higher than the maximum value. ", e.getMessage());
+                case -1:
+                    assertEquals("Inventory level is lower than minimum value. ", e.getMessage());
+                    break;
+                case 1:
+                    assertEquals("Inventory level is higher than the maximum value. ", e.getMessage());
+                    break;
             }
+
         }
     }
 
