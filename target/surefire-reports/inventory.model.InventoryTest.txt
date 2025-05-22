@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: inventory.model.InventoryTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.097 s <<< FAILURE! -- in inventory.model.InventoryTest
+Tests run: 4, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.090 s <<< FAILURE! -- in inventory.model.InventoryTest
 inventory.model.InventoryTest.lookUpProduct_TC02 -- Time elapsed: 0.007 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -150,7 +150,7 @@ org.opentest4j.AssertionFailedError: expected: <null> but was: <P,0,null,0.0,0,0
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-inventory.model.InventoryTest.lookUpProduct_TC04 -- Time elapsed: 0.004 s <<< ERROR!
+inventory.model.InventoryTest.lookUpProduct_TC04 -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
