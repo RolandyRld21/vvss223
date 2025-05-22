@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec Proiect233 - ifir3346_BBT</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Proiect233<br/>Test Suite: Proiect233 - ifir3346_BBT</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 31/03/2025</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.ifir3346_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc24262">Prj233-1: F01a - Adaugarea unei piese valide (ECP)</a></p><p style="padding-left: 45px;"><a href="#toc_tc24270">Prj233-2: F01a - Adaugarea unei piese invalide (ECP)</a></p><p style="padding-left: 45px;"><a href="#toc_tc24277">Prj233-3: F01a - Adaugarea unei piese valide (BVA)</a></p><p style="padding-left: 45px;"><a href="#toc_tc24283">Prj233-4: F01a - Adaugarea unei piese invalide (BVA)</a></p><p style="padding-left: 45px;"><a href="#toc_tc24289">Prj233-5: F01b - Adaugarea unui produs valid (ECP)</a></p><p style="padding-left: 45px;"><a href="#toc_tc24298">Prj233-6: F01b - Adaugarea unui produs invalid (ECP)</a></p><p style="padding-left: 45px;"><a href="#toc_tc24304">Prj233-7: F01b - Adaugarea unui produs valid (BVA)</a></p><p style="padding-left: 45px;"><a href="#toc_tc24310">Prj233-8: F01b - Adaugarea unui produs invalid (BVA)</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>Proiect de testare pentru studentii din grupa 233.</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : ifir3346_BBT</h1>
+<div><p>Suita de teste pentru F01 folosind ECP si BVA</p>
+</div><a name="toc_tc24262"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj233-1: F01a - Adaugarea unei piese valide (ECP)&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ifir3346</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC pentru adaugarea unei piese valide folosind ECP</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Utilizatorul are acces la formularul corespunzator adaugarii unei piese</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Utilizatorul deschide formularul corespunzatorul adaugarii unei piese</p>
+</td><td><p>Se deschide formularul</p>
+</td></tr><tr><td width="5">2</td><td><p>Selecteaza optiunea &quot;Outsourced&quot; din partea de sus a formularului</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Completeaza campurile:</p>
+
+<p>Name: Bolt M12</p>
+
+<p>Inventar: 50</p>
+
+<p>Price: 1.25</p>
+
+<p>Max: 100 Min: 10</p>
+
+<p>Company Name: Acme Supplies</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Apasa butonul save</p>
+</td><td><p>Piesa este salvata cu succes si apare in lista de piese.</p>
+
+<p>Nu se afiseaza erori.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">ifir3346_F01:  Add new part/product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc24270"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj233-2: F01a - Adaugarea unei piese invalide (ECP)&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ifir3346</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Adaugarea unei piese invalide (ECP)</p>
+
+<p>- numarul de bucati existente in stoc este &lt;1</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Utilizatorul are acces la formularul corespunzator adaugarii unei piese</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Utilizatorul deschide formularul corespunzatorul adaugarii unei piese</p>
+</td><td><p>Se deschide formularul</p>
+</td></tr><tr><td width="5">2</td><td><p>Selecteaza optiunea &quot;Outsourced&quot; din partea de sus a formularului</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Completeaza campurile:</p>
+
+<p>Name: Bolt M12</p>
+
+<p>Inventar: 0</p>
+
+<p>Price: 1.25</p>
+
+<p>Max: 100 Min: 10</p>
+
+<p>Company Name: Acme Supplies</p>
+</td><td></td></tr><tr><td width="5">5</td><td><p>Apasa butonul save</p>
+</td><td><p>Error: &quot;Inventory level must be greater than 0. Inventory level is lower than minimum value.&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">ifir3346_F01:  Add new part/product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc24277"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj233-3: F01a - Adaugarea unei piese valide (BVA)&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ifir3346</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC pentru adaugarea unei piese valide (BVA)</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Utilizatorul are acces la formularul corespunzator adaugarii unei piese</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Utilizatorul deschide formularul corespunzatorul adaugarii unei piese</p>
+</td><td><p>Se deschide formularul</p>
+</td></tr><tr><td width="5">2</td><td><p>Selecteaza optiunea &quot;Outsourced&quot; din partea de sus a formularului</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Completeaza campurile:</p>
+
+<p>Name: Bolt M12</p>
+
+<p>Inventar: 10</p>
+
+<p>Price: 1.25</p>
+
+<p>Max: 100 Min: 10</p>
+
+<p>Company Name: Acme Supplies</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Apasa butonul Save</p>
+</td><td><p>Piesa este salvata cu succes si apare in lista de piese.</p>
+
+<p>Nu se afiseaza erori.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">ifir3346_F01:  Add new part/product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc24283"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj233-4: F01a - Adaugarea unei piese invalide (BVA)&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ifir3346</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC pentru adaugarea unei piese invalide (BVA)</p>
+
+<p>- verifica raspunsul sistemului atunci cand numarul de bucati este sub limita minima acceptata (limita inferioara - 1)</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Utilizatorul are acces la formularul corespunzator adaugarii unei piese</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Utilizatorul deschide formularul corespunzatorul adaugarii unei piese</p>
+</td><td><p>Se deschide formularul</p>
+</td></tr><tr><td width="5">2</td><td><p>Selecteaza optiunea &bdquo;Outsourced&rdquo;</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Completeaza campurile:</p>
+
+<p>Name: TestBVA_Invalid</p>
+
+<p>Inventory: 9</p>
+
+<p>Price: 5.00</p>
+
+<p>Max: 100</p>
+
+<p>Min: 10</p>
+
+<p>Company Name: Acme Supplies</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Apasa butonul Save</p>
+</td><td><p>Error: &quot;Inventory level is lower than minimum value&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">ifir3346_F01:  Add new part/product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc24289"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj233-5: F01b - Adaugarea unui produs valid (ECP)&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ifir3346</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC pentru adaugarea unui produs valid (ECP)</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Utilizatorul are acces la formularul corespunzator adaugarii unui produs</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Utilizatorul deschide formularul corespunzatorul adaugarii unui produs</p>
+</td><td><p>Se deschide formularul</p>
+</td></tr><tr><td width="5">2</td><td><p>Completeaza:</p>
+
+<p>Name: Test</p>
+
+<p>Inventory: 19</p>
+
+<p>Price: 20</p>
+
+<p>Max: 100 Min: 5</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Selecteaza piesa Screw și apasă Add</p>
+</td><td><p>Piesa apare &icirc;n tabelul de jos</p>
+</td></tr><tr><td width="5">4</td><td><p>Apasa Save</p>
+</td><td><p>Produsul este salvat cu succes si apare in lista de produse.</p>
+
+<p>Nu se afiseaza erori.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">ifir3346_F01:  Add new part/product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc24298"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj233-6: F01b - Adaugarea unui produs invalid (ECP)&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ifir3346</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC pentru adaugarea unui produs invalid (ECP)</p>
+
+<p>- utilizatorul nu este selecteaza nicio piesa</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Utilizatorul are acces la formularul corespunzator adaugarii unui produs</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Utilizatorul deschide formularul corespunzatorul adaugarii unui produs</p>
+</td><td><p>Se deschide formularul</p>
+</td></tr><tr><td width="5">2</td><td><p>Completeaza:</p>
+
+<p>Name: Test</p>
+
+<p>Inventory: 19</p>
+
+<p>Price: 20</p>
+
+<p>Max: 100 Min: 5</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Nu selecteaza nicio piesa</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Apasa Save</p>
+</td><td><p>Error: &quot;Product must contain at least 1 part.&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">ifir3346_F01:  Add new part/product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc24304"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj233-7: F01b - Adaugarea unui produs valid (BVA)&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ifir3346</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC pentru adaugarea unui produs valid (BVA)</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Utilizatorul are acces la formularul corespunzator adaugarii unui produs</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Utilizatorul deschide formularul corespunzatorul adaugarii unui produs</p>
+</td><td><p>Se deschide formularul</p>
+</td></tr><tr><td width="5">2</td><td><p>Completeaza:</p>
+
+<p>Name: Test</p>
+
+<p>Inventory: 5</p>
+
+<p>Price: 20</p>
+
+<p>Max: 100 Min: 5</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Selecteaza piesa Screw si apasa Add</p>
+</td><td><p>Piesa apare in tabelul de jos</p>
+</td></tr><tr><td width="5">4</td><td><p>Apasa Save</p>
+</td><td><p>Produsul este salvat cu succes si apare in lista de produse.</p>
+
+<p>Nu se afiseaza erori.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">ifir3346_F01:  Add new part/product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc24310"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj233-8: F01b - Adaugarea unui produs invalid (BVA)&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ifir3346</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC pentru adaugarea unui produs invalid (BVA)</p>
+
+<p>- utilizatorul adauga un produs cu Inventory sub Min</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Utilizatorul are acces la formularul corespunzator adaugarii unui produs</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Utilizatorul deschide formularul corespunzatorul adaugarii unui produs</p>
+</td><td><p>Se deschide formularul</p>
+</td></tr><tr><td width="5">2</td><td><p>Completeaza:</p>
+
+<p>Name: TestInvalidBva</p>
+
+<p>Inventory: 4</p>
+
+<p>Price: 10</p>
+
+<p>Max: 100 Min: 5</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Selecteaza piesa Screw si apasa Add</p>
+</td><td><p>Piesa apare in tabelul de jos</p>
+</td></tr><tr><td width="5">4</td><td><p>Apasa Save</p>
+</td><td><p>Error: &quot;Inventory level is lower than minimum value&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">ifir3346_F01:  Add new part/product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
