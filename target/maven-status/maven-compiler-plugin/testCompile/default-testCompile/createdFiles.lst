@@ -1,6 +1,0 @@
-inventory\repository\mock\InventoryRepositoryTestWithMock.class
-inventory\service\mock\InventoryServiceWithMockConstructorTest.class
-inventory\service\mock\InventoryTestStep3Test.class
-inventory\service\InventoryServiceTest.class
-inventory\model\InventoryTest.class
-inventory\service\mock\InventoryTestStep2Test.class

@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: inventory.service.InventoryServiceTest
--------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.169 s -- in inventory.service.InventoryServiceTest
