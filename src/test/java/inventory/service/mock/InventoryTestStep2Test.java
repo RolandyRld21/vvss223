@@ -5,8 +5,8 @@ import inventory.model.Product;
 import inventory.repository.InventoryRepository;
 import inventory.service.InventoryService;
 import javafx.collections.ObservableList;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
@@ -15,7 +15,7 @@ public class InventoryTestStep2Test {
     private InventoryRepository inventoryRepository;
     private InventoryService inventoryService;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         // Inițializăm un InventoryRepository real
         inventoryRepository = new InventoryRepository();
@@ -38,8 +38,8 @@ public class InventoryTestStep2Test {
         // Apelul metodei addProduct
         inventoryRepository.addProduct(product);
 
-        assertEquals(inventoryRepository.getAllProducts().size(), old_size_r + 1);
-        assertEquals(inventoryService.getAllProducts().size(), old_size_s + 1);
+        assertEquals(old_size_r + 1, inventoryRepository.getAllProducts().size());
+        assertEquals(old_size_s + 1, inventoryService.getAllProducts().size());
     }
 
     @Test
@@ -57,13 +57,13 @@ public class InventoryTestStep2Test {
         // Apelul metodei addProduct
         inventoryRepository.addProduct(product);
 
-        assertEquals(inventoryRepository.getAllProducts().size(), old_size_r + 1);
-        assertEquals(inventoryService.getAllProducts().size(), old_size_s + 1);
+        assertEquals(old_size_r + 1, inventoryRepository.getAllProducts().size());
+        assertEquals(old_size_s + 1, inventoryService.getAllProducts().size());
 
         inventoryRepository.deleteProduct(product);
 
-        assertEquals(inventoryRepository.getAllProducts().size(), old_size_r);
-        assertEquals(inventoryService.getAllProducts().size(), old_size_s);
+        assertEquals(old_size_r, inventoryRepository.getAllProducts().size());
+        assertEquals(old_size_s, inventoryService.getAllProducts().size());
     }
 
 }

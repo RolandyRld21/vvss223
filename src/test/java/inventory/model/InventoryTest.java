@@ -8,6 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -39,7 +40,7 @@ class InventoryTest {
     @Test
     @DisplayName("Search item found")
     void lookUpProduct_TC02() {
-        Assertions.assertEquals(inventory.lookupProduct("itemName").getProductId(), 1);
+        Assertions.assertEquals(inventory.lookupProduct("Test Product").getProductId(), 1);
     }
 
     @Test
@@ -51,13 +52,18 @@ class InventoryTest {
     @Test
     @DisplayName("Empty list")
     void lookUpProduct_TC04() {
+        // Șterge toate produsele (dacă există)
+        for (Product p : new ArrayList<>(inventory.getProducts())) {
+            inventory.removeProduct(p);
+        }
 
+        // Acum lista ar trebui să fie goală
         List<Product> prods = inventory.getProducts();
-        inventory.removeProduct(prods.get(0));
-        inventory.removeProduct(prods.get(0));
-        inventory.removeProduct(prods.get(0));
+        assertTrue(prods.isEmpty(), "Lista de produse ar trebui să fie goală!");
 
-        assertThrows(NullPointerException.class, () -> inventory.lookupProduct("TEST").getProductId()) ;
+        // Dacă vrei să verifici și lookupProduct, că nu găsește nimic:
+        assertNull(inventory.lookupProduct("TEST"), "lookupProduct ar trebui să returneze null dacă nu găsește nimic");
     }
+
 
 }

@@ -1,16 +1,16 @@
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\controller\AddPartController.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\repository\InventoryRepository.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\model\Product.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\service\InventoryService.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\errors\ValidationException.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\controller\MainScreenController.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\controller\ModifyPartController.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\controller\AddProductController.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\model\InhousePart.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\model\Part.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\Main.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\controller\ModifyProductController.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\model\Inventory.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\module-info.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\controller\Controller.java
-C:\Users\dcata\Desktop\FACULTA\ANUL 3 SEM 2\VVSS\casianh10-VVSS-Lab-8a5dd8d\src\main\java\inventory\model\OutsourcedPart.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\repository\InventoryRepository.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\controller\ModifyProductController.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\model\Inventory.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\controller\ModifyPartController.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\model\Product.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\controller\AddProductController.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\errors\ValidationException.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\controller\AddPartController.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\model\Part.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\service\InventoryService.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\controller\Controller.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\model\InhousePart.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\Main.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\controller\MainScreenController.java
+D:\roland_VVSS\roland_VVSS\src\main\java\module-info.java
+D:\roland_VVSS\roland_VVSS\src\main\java\inventory\model\OutsourcedPart.java

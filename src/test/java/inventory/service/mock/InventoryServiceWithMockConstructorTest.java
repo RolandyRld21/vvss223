@@ -7,8 +7,8 @@ import inventory.repository.InventoryRepository;
 import inventory.service.InventoryService;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.mockito.Mockito.*;
 
@@ -16,7 +16,7 @@ public class InventoryServiceWithMockConstructorTest {
     private InventoryRepository inventoryRepository;
     private InventoryService inventoryService;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         inventoryRepository = mock(InventoryRepository.class);
         inventoryService = new InventoryService(inventoryRepository);

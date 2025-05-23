@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="inventory.model.InventoryTest" time="0.061" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="inventory.service.mock.InventoryTestStep3Test" time="0.008" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,8 +64,106 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="lookUpProduct_TC01" classname="inventory.model.InventoryTest" time="0.031"/>
-  <testcase name="lookUpProduct_TC02" classname="inventory.model.InventoryTest" time="0.005"/>
-  <testcase name="lookUpProduct_TC03" classname="inventory.model.InventoryTest" time="0.002"/>
-  <testcase name="lookUpProduct_TC04" classname="inventory.model.InventoryTest" time="0.002"/>
+  <testcase name="deleteProduct" classname="inventory.service.mock.InventoryTestStep3Test" time="0.005">
+    <system-out><![CDATA[I,1,piesa,0.1,5,5,10,1
+I,2,piesa,1.0,6,5,10,1
+I,3,piesa,1.7976931348623157E308,9,5,10,1
+I,4,piesa,1.7976931348623157E308,10,5,10,1
+I,5,piesa,0.1,5,5,10,1
+I,6,piesa,1.0,6,5,10,1
+I,7,piesa,1.7976931348623157E308,9,5,10,1
+I,8,piesa,1.7976931348623157E308,10,5,10,1
+I,9,piesa,0.1,5,5,10,1
+I,10,piesa,1.0,6,5,10,1
+I,11,piesa,1.7976931348623157E308,9,5,10,1
+I,12,piesa,1.7976931348623157E308,10,5,10,1
+I,13,piesa,0.1,5,5,10,1
+I,14,piesa,1.0,6,5,10,1
+I,15,piesa,1.7976931348623157E308,9,5,10,1
+I,16,piesa,1.7976931348623157E308,10,5,10,1
+I,17,piesa,0.1,5,5,10,1
+I,18,piesa,1.0,6,5,10,1
+I,19,piesa,1.7976931348623157E308,9,5,10,1
+I,20,piesa,1.7976931348623157E308,10,5,10,1
+I,21,piesa,0.1,5,5,10,1
+I,22,piesa,1.0,6,5,10,1
+I,23,piesa,1.7976931348623157E308,9,5,10,1
+I,24,piesa,1.7976931348623157E308,10,5,10,1
+I,25,piesa,0.1,5,5,10,1
+I,26,piesa,1.0,6,5,10,1
+I,27,piesa,1.7976931348623157E308,9,5,10,1
+I,28,piesa,1.7976931348623157E308,10,5,10,1
+I,29,piesa,0.1,5,5,10,1
+I,30,piesa,1.0,6,5,10,1
+I,31,piesa,1.7976931348623157E308,9,5,10,1
+I,32,piesa,1.7976931348623157E308,10,5,10,1
+I,1,piesa,0.1,5,5,10,1
+I,2,piesa,1.0,6,5,10,1
+I,3,piesa,1.7976931348623157E308,9,5,10,1
+I,4,piesa,1.7976931348623157E308,10,5,10,1
+I,5,piesa,0.1,5,5,10,1
+I,6,piesa,1.0,6,5,10,1
+I,7,piesa,1.7976931348623157E308,9,5,10,1
+I,8,piesa,1.7976931348623157E308,10,5,10,1
+I,9,piesa,0.1,5,5,10,1
+I,10,piesa,1.0,6,5,10,1
+I,11,piesa,1.7976931348623157E308,9,5,10,1
+I,12,piesa,1.7976931348623157E308,10,5,10,1
+I,13,piesa,0.1,5,5,10,1
+I,14,piesa,1.0,6,5,10,1
+I,15,piesa,1.7976931348623157E308,9,5,10,1
+I,16,piesa,1.7976931348623157E308,10,5,10,1
+I,17,piesa,0.1,5,5,10,1
+I,18,piesa,1.0,6,5,10,1
+I,19,piesa,1.7976931348623157E308,9,5,10,1
+I,20,piesa,1.7976931348623157E308,10,5,10,1
+I,21,piesa,0.1,5,5,10,1
+I,22,piesa,1.0,6,5,10,1
+I,23,piesa,1.7976931348623157E308,9,5,10,1
+I,24,piesa,1.7976931348623157E308,10,5,10,1
+I,25,piesa,0.1,5,5,10,1
+I,26,piesa,1.0,6,5,10,1
+I,27,piesa,1.7976931348623157E308,9,5,10,1
+I,28,piesa,1.7976931348623157E308,10,5,10,1
+I,29,piesa,0.1,5,5,10,1
+I,30,piesa,1.0,6,5,10,1
+I,31,piesa,1.7976931348623157E308,9,5,10,1
+I,32,piesa,1.7976931348623157E308,10,5,10,1
+]]></system-out>
+  </testcase>
+  <testcase name="testAddProduct" classname="inventory.service.mock.InventoryTestStep3Test" time="0.003">
+    <system-out><![CDATA[I,1,piesa,0.1,5,5,10,1
+I,2,piesa,1.0,6,5,10,1
+I,3,piesa,1.7976931348623157E308,9,5,10,1
+I,4,piesa,1.7976931348623157E308,10,5,10,1
+I,5,piesa,0.1,5,5,10,1
+I,6,piesa,1.0,6,5,10,1
+I,7,piesa,1.7976931348623157E308,9,5,10,1
+I,8,piesa,1.7976931348623157E308,10,5,10,1
+I,9,piesa,0.1,5,5,10,1
+I,10,piesa,1.0,6,5,10,1
+I,11,piesa,1.7976931348623157E308,9,5,10,1
+I,12,piesa,1.7976931348623157E308,10,5,10,1
+I,13,piesa,0.1,5,5,10,1
+I,14,piesa,1.0,6,5,10,1
+I,15,piesa,1.7976931348623157E308,9,5,10,1
+I,16,piesa,1.7976931348623157E308,10,5,10,1
+I,17,piesa,0.1,5,5,10,1
+I,18,piesa,1.0,6,5,10,1
+I,19,piesa,1.7976931348623157E308,9,5,10,1
+I,20,piesa,1.7976931348623157E308,10,5,10,1
+I,21,piesa,0.1,5,5,10,1
+I,22,piesa,1.0,6,5,10,1
+I,23,piesa,1.7976931348623157E308,9,5,10,1
+I,24,piesa,1.7976931348623157E308,10,5,10,1
+I,25,piesa,0.1,5,5,10,1
+I,26,piesa,1.0,6,5,10,1
+I,27,piesa,1.7976931348623157E308,9,5,10,1
+I,28,piesa,1.7976931348623157E308,10,5,10,1
+I,29,piesa,0.1,5,5,10,1
+I,30,piesa,1.0,6,5,10,1
+I,31,piesa,1.7976931348623157E308,9,5,10,1
+I,32,piesa,1.7976931348623157E308,10,5,10,1
+]]></system-out>
+  </testcase>
 </testsuite>
